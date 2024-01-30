@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #050505;
+    padding: 1.6rem;
+    font-family: "Inter", sans-serif;
+}
+
+/* Header */
+header{
+    background-color: #363636;
+    border-radius: 1rem;
+    padding: 2.4rem;
+    height: 9.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.header-user,
+.header-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.icons{
+    width: 1.8rem;
+    height: 2.4rem;
+    color: #ffffff;
+    
+}
+
+.link-button{
+    background-color: #262626;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    padding: 1rem 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 100px;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.link-button:link,
+.link-button:visited{
+    background-color: #262626;
+}
+
+.link-button:hover{
+    background-color: #262626;
+}
+.link-button:active{
+    transition: all 0.3s ease;
+    background-color: #909090;
+}
+
+.link{
+    background-color: #909090;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    padding: 1rem 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 100px;
+    margin-right: 1rem;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.link:link,
+.link:visited{
+    background-color: #909090;
+}
+
+.link:hover{
+    background-color: #262626;
+    transition: all 0.3s ease;
+}
+.link:active{
+    transition: all 0.3s ease;
+    background-color: #909090;
+}
+
+/* Main */
+.recent-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.2rem;
+    column-gap: 1.2rem;
+
+}
+.recent{
+    display: flex;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #ffffff;
+    gap: 1.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+.recent:hover{
+    background-color: #434343e0;
+    transition: all 0.3s ease;
+}
+
+img{
+    width: 12rem;
+}
+
+
+
